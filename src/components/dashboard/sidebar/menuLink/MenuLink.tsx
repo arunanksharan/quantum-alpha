@@ -21,7 +21,7 @@ const MenuLink: React.FC<MenuLinkProps> = ({
     <Link
       className={`menuitem ${
         pathname === path ? "bg-[#2e374a]" : ""
-      } flex items-center text-sm p-4 gap-3 hover:bg-[#2e374a] rounded-lg m-2`}
+      } flex items-center text-sm p-4 gap-3 hover:bg-[#2e374a] rounded-lg m-2 `}
       href={path}
     >
       <Icon size={28} className="mr-4" />

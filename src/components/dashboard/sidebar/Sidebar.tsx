@@ -112,6 +112,12 @@ const Sidebar: React.FC = () => {
           </li>
         ))}
       </ul>
+      <div className="p-2">
+        <button className="flex items-center text-sm px-4 py-4 gap-3 hover:bg-[#2e374a] w-full rounded-lg cursor-pointer">
+          <MdLogout size={28} className="mr-4" />
+          Sign Out
+        </button>
+      </div>
     </div>
   )
 }
