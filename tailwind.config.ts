@@ -18,6 +18,15 @@ const config: Config = {
         text: "var(--text)", // Ensure that --text is defined in your CSS
         bgSoft: "var(--bgSoft)", // Ensure that --bgSoft is defined in your CSS
         bg: "var(--bg)", // Ensure that --bg is defined in your CSS
+        failed: {
+          500: "#f7737375", // Example, change according to your preference
+        },
+        success: {
+          500: "#afd6ee75", // Example, change according to your preference
+        },
+        pending: {
+          500: "#f7cb7375", // Example, change according to your preference
+        },
       },
     },
   },
