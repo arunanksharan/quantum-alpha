@@ -82,7 +82,7 @@ const Transactions = () => {
                 </div>
               </td>
 
-              <td>
+              <td className="p-3">
                 <span
                   className={`${
                     statusColors[item.status]
@@ -91,8 +91,8 @@ const Transactions = () => {
                   {item.status}
                 </span>
               </td>
-              <td>{item.date}</td>
-              <td>{item.amount}</td>
+              <td className="p-3">{item.date}</td>
+              <td className="p-3">{item.amount}</td>
             </tr>
           ))}
         </tbody>
