@@ -3,6 +3,7 @@ import { Inter } from "next/font/google"
 
 import Sidebar from "@/components/dashboard/sidebar/Sidebar"
 import Navbar from "@/components/dashboard/navbar/Navbar"
+import Footer from "@/components/dashboard/footer/Footer"
 
 export const metadata: Metadata = {
   title: "Dashboard for all your financial information",
@@ -22,6 +23,7 @@ export default function DashboardLayout({
       <div className="content basis-4/5 p-5">
         <Navbar></Navbar>
         {children}
+        <Footer></Footer>
       </div>
     </div>
   )
