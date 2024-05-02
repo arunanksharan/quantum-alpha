@@ -46,7 +46,7 @@ const DashboardPage = () => {
         <Transactions />
         <Chart />
       </div>
-      <div className="dashboard-sidebar basis-1/4 bg-blue-200">
+      <div className="dashboard-sidebar basis-1/4 ">
         <Rightbar />
       </div>
     </div>

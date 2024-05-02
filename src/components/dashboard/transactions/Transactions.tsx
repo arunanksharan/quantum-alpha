@@ -78,7 +78,7 @@ const Transactions = () => {
                     width={40}
                     height={40}
                   />
-                  <td>{item.name}</td>
+                  {item.name}
                 </div>
               </td>
 
