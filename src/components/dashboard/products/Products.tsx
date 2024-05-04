@@ -66,7 +66,7 @@ const Products = () => {
               <td className="p-3">{product.status}</td>
               <td>
                 <div className="buttons flex gap-3">
-                  <Link href="">
+                  <Link href="/dashboard/products/test">
                     <button className="bg-teal-600 px-3 py-1 rounded text-text border-none cursor-pointer">
                       View
                     </button>
